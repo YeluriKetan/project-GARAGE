@@ -18,12 +18,34 @@ function Data({ getData }) {
     setModal({ ...modal, showModal: false });
   };
 
-  function kUniqInRange(a, b, c) {
-    let ans = [];
-    for (let i = 0; i < c; i++) {
-      ans.push(a + i);
+  function kUniqInRange(a, b, k) {
+    let total_possible = b - a + 1;
+    let output_array = [];
+    if(k >= total_possible / 2){
+      let req_set = new Set();
+      while (req_set.size < total_possible - k ){
+        let rand_number = rando(a,b);
+        req_set.add(rand_number);
+      }
+      for (let i = a; i <= b ; i++) {
+        if(!req_set.has(i)){
+          output_array.push(i);
+        }
+      }
+      return output_array;
     }
-    return ans;
+    else{
+      let req_set = new Set();
+      while (req_set.size<k){
+        let rand_number = rando(a,b);
+        req_set.add(rand_number);
+      }
+      for (let reqSetElement of req_set) {
+        output_array.push(reqSetElement);
+      }
+      output_array.sort((a,b) => a-b);
+      return output_array;
+    }
   }
 
   function generateNumbersInText(frozenSliderValues, a, b, c) {
