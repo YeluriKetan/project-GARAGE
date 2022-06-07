@@ -10,7 +10,7 @@ With that idea in mind, presenting GARAGE - a first of its kind (don't quote me 
 
 ## Stats
 
-- Time taken to build: 6 hours
+- Time taken to build: 11 hours
 
 ## Limits
 
