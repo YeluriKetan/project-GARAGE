@@ -1,21 +1,23 @@
 .general-modal {
     width: fit-content;
     height: fit-content;
-    background-color: black;
+    background-color: var(--yellow-orange);
     position: absolute;
     bottom: 45%;
     padding: 0.625rem;
-    border-radius: 1rem;
+    border-radius: 10px;
     z-index: 3;
-    box-shadow: 2px 2px 4px 2px rgb(0, 0, 0, 0.87);
+    box-shadow: 2px 2px 4px 2px rgb(0, 0, 0, 0.4);
 }
 
 .general-modal>p {
     width: fit-content;
+    max-width: 40rem;
     height: fit-content;
     font-family: "Overpass Mono", monospace;
     font-size: 1.25rem;
-    color: white;
+    font-weight: 600;
+    color: var(--space-cadet);
     margin: 0;
     text-align: center;
     word-wrap: normal;

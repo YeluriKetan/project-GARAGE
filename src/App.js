@@ -1,6 +1,6 @@
 import "./App.css";
 import React from "react";
-import Visual from "./Visual";
+import Visual from "./components/Visual";
 
 function App() {
   return (
