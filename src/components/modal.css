@@ -1,0 +1,32 @@
+.general-modal {
+    width: fit-content;
+    height: fit-content;
+    background-color: black;
+    position: absolute;
+    bottom: 45%;
+    padding: 0.625rem;
+    border-radius: 1rem;
+    z-index: 3;
+    box-shadow: 2px 2px 4px 2px rgb(0, 0, 0, 0.87);
+}
+
+.general-modal>p {
+    width: fit-content;
+    height: fit-content;
+    font-family: "Overpass Mono", monospace;
+    font-size: 1.25rem;
+    color: white;
+    margin: 0;
+    text-align: center;
+    word-wrap: normal;
+}
+
+@media (max-width: 600px) {
+    .general-modal>p {
+        font-size: 0.8rem;
+    }
+
+    .changepw-modal {
+        width: 10rem;
+    }
+}
