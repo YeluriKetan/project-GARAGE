@@ -1,49 +1,143 @@
 .main {
   background-color: #1B1D39;
-  width: 100vw;
-  height: 100vh;
+  width: 1536px;
+  height: fit-content;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  flex-shrink: 0;
+  min-height: 0;
+  min-width: 0;
+}
+
 .slider {
-  transform: rotate(-90deg);
-  background-color: transparent;
   -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: #4B72FF;
+  transform: rotate(-90deg);
+  width: 300px;
+  height: 16px;
+  padding: 4px;
+  border-radius: 10px;
+  box-shadow: -2px 2px 4px rgba(0, 0, 0, 0.2);
+  margin-left: -140px;
+  margin-right: -140px;
+}
+
+.slider:focus {
+  outline: none;
 }
 
 .slider::-webkit-slider-runnable-track {
-  background: #F79158;
-  height: 10px;
-  border-radius: 4px;
-  -webkit-appearance: none;
+  display: flex;
+  align-items: center;
+  height: 8px;
+  border-radius: 9999px;
+  box-shadow: inset 0px 0px 300px #1B1D39;
 }
 
 .slider::-webkit-slider-thumb {
-  background: #4B72FF;
-  width: 16px;
-  height: 16px;
-  margin-top: -3px;
-  border-radius: 9999px;
   -webkit-appearance: none;
+  position: relative;
+  top: -8px;
+  width: 24px;
+  height: 24px;
+  background-color: #F79158;
+  background-image: linear-gradient(-45deg, rgba(0, 0, 0, 0.3), transparent);
+  border-radius: 50%;
+  box-shadow: -1px -1px 2px rgba(0, 0, 0, 0.5), 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.slider::-moz-range-track {
+  display: flex;
+  align-items: center;
+  height: 8px;
+  border-radius: 9999px;
+  box-shadow: inset 0px 0px 300px #1B1D39;
+}
+
+.slider::-moz-range-thumb {
+  border: none;
+  -webkit-appearance: none;
+  position: relative;
+  top: -8px;
+  width: 24px;
+  height: 24px;
+  background-color: #F79158;
+  background-image: linear-gradient(-45deg, rgba(0, 0, 0, 0.3), transparent);
+  border-radius: 50%;
+  box-shadow: -1px -1px 2px rgba(0, 0, 0, 0.5), 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 .canvasHolder {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  height: 500px;
+  height: fit-content;
+  width: 1000px;
+  margin: 4rem 0 2rem 0;
 }
 
 .parentSlider {
-  display: block;
-  align-self: center;
   width: 300px;
+  transform: rotate(0);
+  margin: 2rem auto 0 auto;
+  display: block;
 }
-.customButton {
+
+.sliderHolderDiv {
+  width: 1000px;
+  height: 350px;
+  display: flex;
+  flex-direction: row;
+  flex-basis: content;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: white;
+  margin: -354px 0 0 0;
+  padding: 0 0 0 0;
+}
+
+.generateButton, .copyButton {
+  margin: 2rem 0 2rem 0;
   border-radius: 0.8rem;
-  width: 6rem;
-  height: 2rem;
+  width: 8rem;
+  height: 2.5rem;
+  background: transparent;
+  outline: none;
+  border-color: #4B72FF;
+  border-style: solid;
+  color: #4B72FF;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.copyButton {
+  width: 16rem;
+}
+
+.a {
+  color: #4B72FF;
+  color: #F79158;
+  color: #F8B551;
+  color: #1B1D39;
+}
+
+.generatedText {
+  color: #F8B551;
+  font-family: monospace;
+  font-size: 1.2rem;
+  width: 1000px;
+  height: 100px;
+  overflow: hidden;
+}
+
+button:hover {
+  cursor: pointer;
 }
