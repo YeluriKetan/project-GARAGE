@@ -29,3 +29,7 @@ Coming soon
 ## Author
 
 [Yeluri Ketan](https://github.com/YeluriKetan) - Undergraduate, Computer Science, NUS '24
+
+## Contributors
+
+[Sravanth Chowdary Potluri](https://github.com/parzival979) - Undergraduate, Computer Science, IITDMK '24
