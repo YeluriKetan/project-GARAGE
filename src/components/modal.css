@@ -14,7 +14,6 @@
     width: fit-content;
     max-width: 40rem;
     height: fit-content;
-    font-family: "Overpass Mono", monospace;
     font-size: 1.25rem;
     font-weight: 600;
     color: var(--space-cadet);

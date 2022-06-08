@@ -1,0 +1,42 @@
+.header {
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: var(--space-cadet);
+}
+
+.githubLogo {
+    width: 2.2rem;
+    color: var(--tiffany-blue);
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 1.5rem;
+}
+
+.githubLogo:hover {
+    color: var(--brick-red);
+}
+
+.githubLogo:active {
+    color: var(--yellow-orange);
+}
+
+.productTitle {
+    font-size: 1.6rem;
+    width: fit-content;
+    height: fit-content;
+    color: var(--yellow-orange);
+    margin: 2rem 0 1rem 0;
+}
+
+.highlightedText {
+    font-size: 1.5rem;
+    width: fit-content;
+    height: fit-content;
+    color: var(--brick-red);
+    margin: 0;
+    display: inline;   
+}

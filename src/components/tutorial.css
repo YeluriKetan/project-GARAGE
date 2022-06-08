@@ -1,0 +1,108 @@
+.openTutorial {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    margin: 0;
+    color: var(--tiffany-blue);
+    background: transparent;
+    border: none;
+}
+
+.helpLogo {
+    cursor: pointer;
+    transform: scale(0.75);
+}
+
+.helpLogo:hover {
+    color: var(--brick-red);
+}
+
+.helpLogo:active {
+    color: var(--yellow-orange);
+}
+
+.containerDiv {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.closeArea {
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 101;
+}
+
+.tutorialContent {
+    width: 40rem;
+    height: fit-content;
+    background-color: var(--space-cadet);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 102;
+    border-radius: 10px;
+    position: relative;
+}
+
+.tutorialContent>section {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tutorialContent>section>h2 {
+    color: var(--brick-red);
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 0.5rem 0;
+}
+
+.tutorialContent>section>p {
+    color: var(--yellow-orange);
+    text-align: center;
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.tutorialContent>section>img {
+    margin: 1rem 0;
+}
+
+.step1img {
+    width: 15rem;
+}
+
+.step2img {
+    width: 12rem;
+}
+
+.step3img {
+    width: 30rem;
+}
+
+.closeLogo {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 104;
+    color: var(--yellow-orange);
+    transform: scale(0.7);
+    cursor: pointer;
+}
+
+.closeLogo:hover {
+    color: var(--brick-red);
+}
