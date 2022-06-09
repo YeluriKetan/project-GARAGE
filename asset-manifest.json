@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/project-GARAGE/static/css/main.2b8fecf2.css",
+    "main.js": "/project-GARAGE/static/js/main.6cf3efa8.js",
+    "static/media/OverpassMono-Light.ttf": "/project-GARAGE/static/media/OverpassMono-Light.855b3225c45f7d4dfcd3.ttf",
+    "static/media/step1.png": "/project-GARAGE/static/media/step1.6600671136dc3cad4c26.png",
+    "static/media/step3.png": "/project-GARAGE/static/media/step3.26a898a074429b297f07.png",
+    "static/media/step2.png": "/project-GARAGE/static/media/step2.5378e762b6eb2b636762.png",
+    "static/media/helpLogo.svg": "/project-GARAGE/static/media/helpLogo.d50dcd8bb3c386e83ee60cc7757f97e2.svg",
+    "static/media/githubLogo.svg": "/project-GARAGE/static/media/githubLogo.c91e27528a7af14632d2e25da3ea6a4b.svg",
+    "index.html": "/project-GARAGE/index.html",
+    "static/media/copyLogo.svg": "/project-GARAGE/static/media/copyLogo.f4ee3f1ae009abf4b041f9ca2251e326.svg",
+    "static/media/randomLogo.svg": "/project-GARAGE/static/media/randomLogo.b707270725edee7a2f2ae323eea5ed2f.svg",
+    "static/media/closeLogo.svg": "/project-GARAGE/static/media/closeLogo.a1be6c0a5c636487e9bf38360c652ad2.svg",
+    "main.2b8fecf2.css.map": "/project-GARAGE/static/css/main.2b8fecf2.css.map",
+    "main.6cf3efa8.js.map": "/project-GARAGE/static/js/main.6cf3efa8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2b8fecf2.css",
+    "static/js/main.6cf3efa8.js"
+  ]
+}
